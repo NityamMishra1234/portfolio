@@ -16,7 +16,7 @@ const StarBackground = dynamic(() => import('@/components/StarBackground'), {
 
 export default function HomePage() {
   return (
-    <Div>
+    <div>
       <Navbar />
       <HeroSection />
       <SkilledSection />
@@ -24,6 +24,6 @@ export default function HomePage() {
       <Workflow />
       <Footer />
       <StarBackground />
-    </Div>
+    </div>
   );
 }

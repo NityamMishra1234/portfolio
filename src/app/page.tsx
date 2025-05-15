@@ -9,21 +9,21 @@ import SkilledSection from '@/components/SkilledSection';
 import WhatSetsMeApart from '@/components/WhatSetsMeApart';
 import Workflow from '@/components/workflow';
 
-// ✅ Dynamically import StarBackground to disable SSR
-// const StarBackground = dynamic(() => import('@/components/StarBackground'), {
-//   ssr: false,
-// });
+✅ Dynamically import StarBackground to disable SSR
+const StarBackground = dynamic(() => import('@/components/StarBackground'), {
+  ssr: false,
+});
 
 export default function HomePage() {
   return (
-    <Box>
+    <Div>
       <Navbar />
       <HeroSection />
       <SkilledSection />
       <WhatSetsMeApart />
       <Workflow />
       <Footer />
-{/*       <StarBackground /> */}
-    </Box>
+      <StarBackground />
+    </Div>
   );
 }

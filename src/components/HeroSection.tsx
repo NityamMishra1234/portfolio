@@ -1,7 +1,7 @@
 'use client';
 import { Box, Typography, Button } from '@mui/material';
 import Lottie from 'react-lottie';
-import lottieAnimationData from '../statics/heroLoote.json';
+// import lottieAnimationData from '../statics/heroLoote.json';
 import WebCanvasBackground from './WebCanvasBackground';
 
 const HeroSection = () => {
@@ -73,13 +73,13 @@ const HeroSection = () => {
       </Box>
 
       {/* Right Animation */}
-      <Box sx={{ flex: 1, textAlign: 'center', mt: { xs: 6, md: 0 }, zIndex: 1 }}>
+{/*       <Box sx={{ flex: 1, textAlign: 'center', mt: { xs: 6, md: 0 }, zIndex: 1 }}>
         <Lottie
           options={{ animationData: lottieAnimationData, loop: true, autoplay: true }}
           height={350}
           width={350}
         />
-      </Box>
+      </Box> */}
     </Box>
   );
 };

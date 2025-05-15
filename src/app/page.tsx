@@ -9,7 +9,7 @@ import SkilledSection from '@/components/SkilledSection';
 import WhatSetsMeApart from '@/components/WhatSetsMeApart';
 import Workflow from '@/components/workflow';
 
-✅ Dynamically import StarBackground to disable SSR
+// ✅ Dynamically import StarBackground to disable SSR
 const StarBackground = dynamic(() => import('@/components/StarBackground'), {
   ssr: false,
 });

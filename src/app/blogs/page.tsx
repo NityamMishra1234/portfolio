@@ -1,4 +1,5 @@
-'use client';
+'use Client';
+
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchBlogs } from '../../features/blogs/blogSlice';

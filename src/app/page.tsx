@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic';
 import { Box } from '@mui/material';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import HeroSection from '@/components/HeroSection';
+// import HeroSection from '@/components/HeroSection';
 import SkilledSection from '@/components/SkilledSection';
 import WhatSetsMeApart from '@/components/WhatSetsMeApart';
 import Workflow from '@/components/workflow';
@@ -18,7 +18,7 @@ export default function HomePage() {
   return (
     <div>
       <Navbar />
-      <HeroSection />
+{/*       <HeroSection /> */}
       <SkilledSection />
       <WhatSetsMeApart />
       <Workflow />
